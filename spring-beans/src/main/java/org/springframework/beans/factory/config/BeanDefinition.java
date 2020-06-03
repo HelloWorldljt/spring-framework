@@ -38,6 +38,7 @@ import org.springframework.lang.Nullable;
  * @see org.springframework.beans.factory.support.RootBeanDefinition
  * @see org.springframework.beans.factory.support.ChildBeanDefinition
  */
+//spring bean 定义描述接口
 public interface BeanDefinition extends AttributeAccessor, BeanMetadataElement {
 
 	/**
